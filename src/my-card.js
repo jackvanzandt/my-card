@@ -21,16 +21,13 @@ class MyCard extends LitElement {
       text-align: center;
       background-color: var(--my-card-background-color);
     }
-
     main {
       flex-grow: 1;
     }
-
     .logo {
       margin-top: 36px;
       animation: app-logo-spin infinite 20s linear;
     }
-
     @keyframes app-logo-spin {
       from {
         transform: rotate(0deg);
@@ -39,12 +36,10 @@ class MyCard extends LitElement {
         transform: rotate(360deg);
       }
     }
-
     .app-footer {
       font-size: calc(12px + 0.5vmin);
       align-items: center;
     }
-
     .app-footer a {
       margin-left: 5px;
     }
@@ -60,7 +55,6 @@ class MyCard extends LitElement {
       <main>
         <div class="logo"><img alt="open-wc logo" src=${logo} /></div>
         <h1>${this.header}</h1>
-
         <p>Edit <code>src/MyCard.js</code> and save to reload.</p>
         <a
           class="app-link"
@@ -71,7 +65,6 @@ class MyCard extends LitElement {
           Code examples
         </a>
       </main>
-
       <p class="app-footer">
         🚽 Made with love by
         <a
